@@ -4,4 +4,4 @@ import userRoutes from "./routes/user";
 export const app = express();
 
 app.use(express.json());
-app.use("/api", userRoutes);
+app.use("/api/users", userRoutes);
