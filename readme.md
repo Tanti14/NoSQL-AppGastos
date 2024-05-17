@@ -71,9 +71,9 @@ Eliminar un usuario especifico de la DB:
 
 
 ## Variables de entorno
-Para ejecutar este proyecto, necesitas agregar dentro de `/src` un archivo `config.ts` con las siguientes credenciales:
+Para ejecutar este proyecto, debes modificar el archivo `config.ts` dentro de la carpeta `/src` con tus propias credenciales de MongoDB:
 
 - `PORT`: El puerto donde se ejecutara el servidor.
 
-- `MONGODB_URI`: La cadena de conexion de la base de datos.
+- `MONGODB_URI`: La cadena de conexion de la base de datos de MongoDB.
 
